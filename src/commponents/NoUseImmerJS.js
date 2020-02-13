@@ -1,6 +1,6 @@
 import React, { useRef, useState, useCallback } from 'react';
 
-function NoUseImmerJs() {
+function NoUseImmerJS() {
   const nextId = useRef(1);
   const [form, setForm] = useState({
     userId: '',
@@ -84,4 +84,4 @@ function NoUseImmerJs() {
   );
 }
 
-export default NoUseImmerJs;
+export default NoUseImmerJS;
